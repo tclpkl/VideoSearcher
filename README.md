@@ -1,9 +1,7 @@
-# CSCI576_Project_2024
+# Video Searcher - Searching and Indexing Video with Input Clip
+A video query system capable of identifying the source video and timestamp of input videos from a database using content-based retrieval, even if input videos are filtered or differ in resolution, with a sub-2-second response time. Implemented MFCC audio feature extraction and image hashing to create an accurate video identification algorithm. 
 
-Team members: Dingyi Nie, Daniel Kim, Younwoo Roh, Timothy Lin
-
-## Searching and Indexing Video with Input Clip
-This repository hosts our final project for CSCI 576: Multimedia Design. The project is designed to take an input video clip along with its audio and identify which video from a database it originates from. Additionally, the program will determine the exact starting point of the clip within the original video.
+The project is designed to take an input video clip along with its audio and identify which video from a database it originates from. Additionally, the program will determine the exact starting point of the clip within the original video.
 
 ## Setup
 Please ensure videos are stored under data/videos and that conda is already installed! In the root directory of this repository, run the following:
